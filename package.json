@@ -1,6 +1,6 @@
 {
   "name": "rest-node-health-fascade",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A REST endpoint to check on the implementing node application",
   "main": "index.js",
   "scripts": {
