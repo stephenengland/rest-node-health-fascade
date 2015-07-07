@@ -26,7 +26,7 @@ require('rest-node-health-fascade')();
 ```
 var startHealthCheckEndpoint = require('rest-node-health-fascade');
 
-startMetaHealthCheckEndpoint(function(callback) {
+startHealthCheckEndpoint(function(callback) {
   var everythingIsOK = false;
   callback(everythingIsOK, {
     "message": "Bad stuff went down! Service is not operational"
