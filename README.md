@@ -37,7 +37,7 @@ startMetaHealthCheckEndpoint(function(callback) {
 
 ## Configuration
 
-The configuration is entirely driven by the package.json. It gives the version number, description, and number of the application via the package.json file.
+The configuration is entirely driven by the package.json. It gives the version number, description, and name of the application via the package.json file.
 
 There are two custom config options used in the package.json file:
 
