@@ -1,6 +1,20 @@
 # rest-node-health-fascade
 A REST endpoint to check on the implementing node application
 
+## What's the point?
+
+To give you some information about the health of the application and a description of what the application is/does.
+
+It exposes two urls to a port that you configure:
+
+"/" and "/info"
+
+The base route gives some short-term data about your application and responds with a 200 or 500 to indicate the 'health' of the application.
+
+The info route gives a description about your application.
+
+These urls are used in the WebHealthMonitor project.
+
 ## Getting Started
 
 ```
