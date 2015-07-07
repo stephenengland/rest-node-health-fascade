@@ -57,4 +57,4 @@ healthCheckType should be consistent with standard WebHealthMonitor types:
 * FTP Directory
 * FTP File
 
-You may use your own types, but realize the Health Monitoring UI has plans to support reading types. If you do not make the type 'generic' enough, it won't be a useful field..
+You may use your own types, but realize the Health Monitoring UI has plans to support reading types. If you do not make the type 'generic' enough, it won't be a useful field.
